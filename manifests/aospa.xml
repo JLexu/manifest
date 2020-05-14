@@ -126,6 +126,7 @@
 
   <!-- Prebuilts -->
   <remove-project name="platform/external/ant-wireless/ant_native" />
+  <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="los" />
   <project path="external/ant-wireless/ant_native" name="AOSPA/android_external_ant-wireless_ant_native" remote="aospa" groups="aospa" />
   <remove-project name="platform/prebuilts/abi-dumps/ndk" />
   <project path="prebuilts/abi-dumps/ndk" name="AOSPA/android_prebuilts_abi-dumps_ndk" remote="aospa" groups="aospa" clone-depth="1" />
